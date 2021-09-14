@@ -1,0 +1,21 @@
+.btn-primary--syle-animation {
+  height: 2.5rem;
+  width: 2rem;
+  background-color: grey;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+}
+.btn-primary {
+  width: 10rem;
+  height: 2.5rem;
+  transition: 0.25s;
+  position: relative;
+  border: none;
+
+  &:hover {
+    box-shadow: inset -10rem 0 0 grey;
+  }
+}
