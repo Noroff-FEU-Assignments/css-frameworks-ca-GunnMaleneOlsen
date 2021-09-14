@@ -1,11 +1,3 @@
+@import "./partials/base";
 @import "~bootstrap/scss/bootstrap";
-
-
-body{
-  background-color: seagreen;
-}
-
-footer{
-  background-color: steelblue;
-  height: 100px;
-}
+@import "./partials/layout";
