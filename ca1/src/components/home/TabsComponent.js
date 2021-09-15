@@ -21,10 +21,10 @@ function TabsComponent() {
             </p>
             <div className="tab__socials">
               <span>Share</span>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </div>
@@ -45,10 +45,10 @@ function TabsComponent() {
             </p>
             <div className="tab__socials">
               <span>Share</span>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </div>
@@ -69,10 +69,10 @@ function TabsComponent() {
             </p>
             <div className="tab__socials">
               <span>Share</span>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a className="tab__link" href="#">
+              <a className="tab__link" href="/">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </div>

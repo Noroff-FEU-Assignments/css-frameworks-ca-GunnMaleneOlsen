@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Forms from "./Forms";
+import Info from "./Info";
 
 function Contact() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div className="contact">
+        <Info />
+        <Forms />
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;

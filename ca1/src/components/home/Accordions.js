@@ -19,14 +19,14 @@ function Accordions() {
           <img
             className="d-block accordion__image"
             src="Tab images/tab-1.jpg"
-            alt="First Tab image"
+            alt="First Tab"
           />
           <div className="accordion__socials">
             <span>Share</span>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>
@@ -44,14 +44,14 @@ function Accordions() {
           <img
             className="d-block accordion__image"
             src="Tab images/tab-2.jpg"
-            alt="First Tab image"
+            alt="First Tab"
           />
           <div className="accordion__socials">
             <span>Share</span>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>
@@ -69,14 +69,14 @@ function Accordions() {
           <img
             className="d-block accordion__image"
             src="Tab images/tab-3.jpg"
-            alt="First Tab image"
+            alt="First Tab"
           />
           <div className="accordion__socials">
             <span>Share</span>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>
@@ -94,14 +94,14 @@ function Accordions() {
           <img
             className="d-block accordion__image"
             src="Tab images/tab-1.jpg"
-            alt="First Tab image"
+            alt="First Tab"
           />
           <div className="accordion__socials">
             <span>Share</span>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
-            <a className="accordion__link" href="#">
+            <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>

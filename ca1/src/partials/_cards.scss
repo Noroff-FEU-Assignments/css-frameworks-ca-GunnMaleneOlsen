@@ -1,3 +1,10 @@
+
+@mixin setBtnSelectorStyle{
+  &:hover, &:focus{
+    box-shadow: inset -10rem 0 0 grey;
+  }
+}
+
 .btn-primary--syle-animation {
   height: 2.5rem;
   width: 2rem;
@@ -15,7 +22,5 @@
   position: relative;
   border: none;
 
-  &:hover {
-    box-shadow: inset -10rem 0 0 grey;
-  }
+  @include setBtnSelectorStyle;
 }

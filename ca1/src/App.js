@@ -53,7 +53,7 @@ function App() {
             <Route path="/news">
               <News />
             </Route>
-            <Route path="/conatct">
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
