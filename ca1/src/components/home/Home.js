@@ -6,7 +6,7 @@ import TabsComponent from "./TabsComponent";
 
 function Home() {
   return (
-    <div>
+    <div className="page page--home">
       <Hero />
       <PageText />
       <Accordions />

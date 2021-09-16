@@ -1,0 +1,50 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: map-get($colors, "dark-white");
+
+  & &__brand {
+    font-family: "Playfair Display ", serif;
+    font-weight: bold;
+    font-style: italic;
+    color: map-get($colors, "highlight");
+    margin: 0 1rem;
+  }
+
+  &__search {
+    margin: 1.5rem 1rem;
+
+    &--input {
+      border: none;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+      padding: 0.5rem 1rem;
+      font-size: map-get($font-size, "smal");
+    }
+    &--btn {
+      background-color: map-get($colors, "highlight");
+      border: none;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+      font-size: map-get($font-size, "smal");
+    }
+  }
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar-nav {
+  .nav-link {
+    padding: 0.5rem 2rem;
+    &.active {
+      background-color: map-get($colors, "white");
+    }
+  }
+}

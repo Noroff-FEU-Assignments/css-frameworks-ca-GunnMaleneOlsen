@@ -4,7 +4,7 @@ import Paginations from "./Paginations";
 
 function News() {
   return (
-    <div className="news">
+    <div className="page page--news">
       <h1>News</h1>
       <Paginations />
       <Cards />

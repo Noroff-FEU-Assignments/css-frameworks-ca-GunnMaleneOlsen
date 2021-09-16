@@ -1,11 +1,18 @@
 
 $colors: (
-    "higlight": #E92569,
+    "highlight": #E92569,
     "black": #0A0A0A,
     "grey": #767676,
     "lightgrey": #C7C7C7,
     "white": #ffff,
     "dark-white": #EFEFEF
+);
+
+$font-size: (
+    "smal": 10pt,
+    "regular": 12pt,
+    "big": 16pt,
+    "large": 20pt
 );
 
 $bg-gradient: radial-gradient(closest-side, #FFFFFF, #E5E5E5 );

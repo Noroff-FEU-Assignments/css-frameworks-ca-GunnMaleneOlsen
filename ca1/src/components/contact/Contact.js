@@ -4,7 +4,7 @@ import Info from "./Info";
 
 function Contact() {
   return (
-    <div className="contact">
+    <div className="page page--contact">
         <Info />
         <Forms />
     </div>
