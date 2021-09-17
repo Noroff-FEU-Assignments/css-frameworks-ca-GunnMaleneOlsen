@@ -1,5 +1,39 @@
-footer {
-  background-color: steelblue;
-  height: 100px;
+.footer {
+  background-color: map-get($colors, "white");
   flex-shrink: 0;
+  color: map-get($colors, "grey");
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  @media (min-width: $breakpoint-lg) {
+    justify-content: space-between;
+    padding: 0 4rem;
+  }
+  &__socials {
+    font-size: map-get($font-size, "large");
+    padding: 1rem;
+    width: 100vw;
+    text-align: center;
+
+    @media (min-width: $breakpoint-lg) {
+      width: auto;
+      padding: 0;
+    }
+  }
+  &__link {
+    margin: 0 0.5rem;
+    color: inherit;
+    @include link-style__pseuodo-class;
+  }
+
+  &__info {
+    margin: 0 0 1rem 0;
+    font-size: map-get($font-size, "smal");
+
+    @media (min-width: $breakpoint-lg) {
+      margin-bottom: 0;
+    }
+  }
 }

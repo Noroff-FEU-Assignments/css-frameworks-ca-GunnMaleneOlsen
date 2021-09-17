@@ -1,6 +1,7 @@
 .accordion{
-
+    margin: 1rem 0;
+    border-radius: 5px;
     &__image{
-        width: 80vw;
+        width: -webkit-fill-available;
     }
 }

@@ -4,7 +4,7 @@ function PageText() {
   return (
     <>
       <h1>We do YAY things</h1>
-      <p>
+      <p className="page-paragraph">
         Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a
         rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend
         finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet,

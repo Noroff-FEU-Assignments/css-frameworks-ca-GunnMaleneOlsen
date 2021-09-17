@@ -1,18 +1,29 @@
-
 $colors: (
-    "highlight": #E92569,
-    "black": #0A0A0A,
-    "grey": #767676,
-    "lightgrey": #C7C7C7,
-    "white": #ffff,
-    "dark-white": #EFEFEF
+  "highlight": #e92569,
+  "black": #0a0a0a,
+  "grey": #767676,
+  "lightgrey": #c7c7c7,
+  "white": #ffff,
+  "dark-white": #efefef,
 );
 
 $font-size: (
-    "smal": 10pt,
-    "regular": 12pt,
-    "big": 16pt,
-    "large": 20pt
+  "smal": 10pt,
+  "regular": 12pt,
+  "big": 16pt,
+  "large": 20pt,
 );
 
-$bg-gradient: radial-gradient(closest-side, #FFFFFF, #E5E5E5 );
+$bg-gradient: radial-gradient(closest-side, #ffffff, #e5e5e5);
+
+@mixin link-style__pseuodo-class {
+  &:hover{
+    color: map-get($colors, "lightgrey");
+  }
+  &:focus {
+    border: 2px solid map-get($colors, "lightgrey");
+    border-radius: 5px;
+  }
+};
+
+$breakpoint-lg: 992px;

@@ -1,5 +1,5 @@
 
-@mixin setBtnSelectorStyle{
+@mixin set__btn-selector-style{
   &:hover, &:focus{
     box-shadow: inset -10rem 0 0 grey;
   }
@@ -22,5 +22,5 @@
   position: relative;
   border: none;
 
-  @include setBtnSelectorStyle;
+  @include set__btn-selector-style;
 }

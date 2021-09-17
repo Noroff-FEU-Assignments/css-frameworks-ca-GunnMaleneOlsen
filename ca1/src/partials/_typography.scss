@@ -5,7 +5,12 @@ body{
 
 h1{
     font-family: 'Playfair Display', serif;
-    color: map-get($colors, "higlight" );
+    color: map-get($colors, "highlight" );
+    margin: 1rem 0;
+}
+
+.page__heading--news{
+    padding: 1rem 0;
 }
 
 p{

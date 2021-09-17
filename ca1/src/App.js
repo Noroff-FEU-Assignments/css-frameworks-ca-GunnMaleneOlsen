@@ -52,10 +52,14 @@ function App() {
         </Switch>
       </div>
 
-      <footer>
-        <div className="footer__socialLinks">
-          <FontAwesomeIcon icon={faVimeoV} />
-          <FontAwesomeIcon icon={faYoutube} />
+      <footer className="footer">
+        <div className="footer__socials">
+          <a href="/" className="footer__link">
+            <FontAwesomeIcon icon={faVimeoV} />
+          </a>
+          <a href="/" className="footer__link">
+            <FontAwesomeIcon icon={faYoutube} />
+          </a>
         </div>
         <span className="footer__info">hello@yay.com</span>
         <span className="footer__info">Copyright 2020</span>

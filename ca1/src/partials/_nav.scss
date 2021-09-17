@@ -6,16 +6,29 @@
   padding: 0.5rem 0;
   background-color: map-get($colors, "dark-white");
 
+  @media (min-width: $breakpoint-lg) {
+    padding: 0.5rem 4rem;
+  }
+
   & &__brand {
     font-family: "Playfair Display ", serif;
     font-weight: bold;
     font-style: italic;
     color: map-get($colors, "highlight");
     margin: 0 1rem;
+    @include link-style__pseuodo-class;
+
+    @media (min-width: $breakpoint-lg) {
+      margin-left: 0;
+    }
   }
 
   &__search {
     margin: 1.5rem 1rem;
+
+    @media (min-width: $breakpoint-lg) {
+      margin: 0;
+    }
 
     &--input {
       border: none;
@@ -30,7 +43,21 @@
       border-bottom-left-radius: 0;
       border-top-left-radius: 0;
       font-size: map-get($font-size, "smal");
+
+      &:hover{
+        background-color: map-get($colors, "grey");
+      }
+      &:focus{
+        background-color: map-get($colors, "highlight");
+        box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+      }
     }
+  }
+}
+
+.navbar-collapse {
+  @media (min-width: $breakpoint-lg) {
+    justify-content: space-between;
   }
 }
 
@@ -41,8 +68,16 @@
 }
 
 .navbar-nav {
+  @media (min-width: $breakpoint-lg) {
+    margin: 0 1rem;
+  }
   .nav-link {
     padding: 0.5rem 2rem;
+    @media (min-width: $breakpoint-lg) {
+      padding: 0;
+      margin: 0 1rem;
+    }
+
     &.active {
       background-color: map-get($colors, "white");
     }
