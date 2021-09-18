@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Form } from "react-bootstrap";
 
 function Forms() {
-   /* const input = document.getElementById('formBasicUrl').value;
+  /* const input = document.getElementById('formBasicUrl').value;
     console.log(input); 
     function validateUrl(value) {
         try {
@@ -18,25 +18,26 @@ function Forms() {
         }
     */
   // const protocol = "https:/";
-  return (    
-      
+  return (
     <div className="form">
       <h1 className="form__header">Submit your details</h1>
       <Form className="form__input-wrapper">
         <Form.Group className="mb-3" controlId="formBasicText">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter email" />
+          <Form.Control type="text" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicUrl">
           <Form.Label>Website</Form.Label>
-          <Form.Control type="url" ></Form.Control>
-          
+          <div className="url">
+            <div className="url__protocol d-none d-md-block">https:/</div>
+            <Form.Control type="someUrl"></Form.Control>
+          </div>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">

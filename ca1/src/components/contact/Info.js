@@ -6,16 +6,16 @@ import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 function Info() {
   return (
-    <div className="contact__info-wrapper">
-      <div className="conatct__info-block">
+    <div className="contact">
+      <div className="contact__block">
         <FontAwesomeIcon icon={faEnvelope} />
         <span className="contact__info">hello@yay.com</span>
       </div>
-      <div className="conatct__info-block">
+      <div className="contact__block">
         <FontAwesomeIcon icon={faPhone} />
         <span className="contact__info">123 456 7890</span>
       </div>
-      <div className="conatct__info-block">
+      <div className="contact__block">
         <FontAwesomeIcon icon={faMapMarkerAlt} />
         <span className="contact__info">
           123 Some Street Somewhere Some City 10000
