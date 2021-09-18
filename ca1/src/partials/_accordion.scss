@@ -1,7 +1,62 @@
-.accordion{
-    margin: 1rem 0;
-    border-radius: 5px;
-    &__image{
-        width: -webkit-fill-available;
+.accordion {
+  margin: 2.5rem 0;
+  margin-bottom: 5rem;
+  border: solid 1px map-get($colors, "white");
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px map-get($colors, "lightgrey");
+
+  &__image {
+    width: -webkit-fill-available;
+  }
+
+  & .accordion-item {
+    border: 0;
+  }
+
+  & .accordion-header {
+    margin-bottom: 1px;
+
+    &.last-btn {
+      margin-bottom: 0;
     }
+  }
+
+  & .accordion-button {
+    background-color: map-get($colors, "white");
+    box-shadow: none;
+    color: map-get($colors, "highlight");
+    margin: 0 -1px;
+    width: calc(100% + 2px);
+
+    &.accordion-button::after {
+      background-image: none;
+    }
+    &.accordion-button:not(.collapsed)::after {
+      background-image: none;
+    }
+  }
+
+  &__socials {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: map-get($font-size, "regular");
+  }
+  &__link {
+    font-size: map-get($font-size, "big");
+    color: map-get($colors, "black");
+    margin-left: 0.5rem;
+
+    @include link-style__pseuodo-class;
+  }
+}
+
+.show {
+  margin-bottom: 1px;
+  border-top: solid 1px map-get($colors, "highlight");
+}
+
+.last-item {
+  > .show {
+    margin-bottom: 0;
+  }
 }

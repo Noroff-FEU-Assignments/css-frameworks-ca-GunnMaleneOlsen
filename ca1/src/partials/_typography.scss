@@ -15,6 +15,7 @@ h1{
 
 p{
     color: map-get($colors, "grey" );
+    font-size: map-get($font-size, "regular");
 }
 
 button {

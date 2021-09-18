@@ -6,7 +6,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 function Accordions() {
   return (
-    <Accordion defaultActiveKey="0" className="d-md-none" flush>
+    <Accordion defaultActiveKey="0" className="d-md-none">
       <Accordion.Item eventKey="0">
         <Accordion.Header>First</Accordion.Header>
         <Accordion.Body>
@@ -22,7 +22,7 @@ function Accordions() {
             alt="First Tab"
           />
           <div className="accordion__socials">
-            <span>Share</span>
+            <span>SHARE</span>
             <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
@@ -47,7 +47,7 @@ function Accordions() {
             alt="First Tab"
           />
           <div className="accordion__socials">
-            <span>Share</span>
+            <span>SHARE</span>
             <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
@@ -57,9 +57,9 @@ function Accordions() {
           </div>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Third</Accordion.Header>
-        <Accordion.Body>
+      <Accordion.Item className="last-item" eventKey="3">
+        <Accordion.Header className="last-btn">Third</Accordion.Header>
+        <Accordion.Body >
           <p className="accordion__paragraph">
             Morbi eget efficitur turpis. Vivamus pellentesque tortor massa,
             venenatis pharetra leo laoreet a. Nullam non eleifend justo, a
@@ -72,7 +72,7 @@ function Accordions() {
             alt="First Tab"
           />
           <div className="accordion__socials">
-            <span>Share</span>
+            <span>SHARE</span>
             <a className="accordion__link" href="/">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>
