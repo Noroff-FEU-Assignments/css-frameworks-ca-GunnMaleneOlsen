@@ -1,0 +1,25 @@
+.page-item {
+  border: solid 1px map-get($colors, "highlight");
+
+  .page-link {
+    border: none;
+    color: map-get($colors, "highlight");
+  }
+
+  &.active {
+    .page-link {
+      border: none;
+      background-color: map-get($colors, "highlight");
+    }
+  }
+
+  &:first-child{
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+  }
+
+  &:last-child{
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+}
