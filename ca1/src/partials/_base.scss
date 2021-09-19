@@ -14,7 +14,7 @@ $font-size: (
   "large": 20pt,
 );
 
-$bg-gradient: radial-gradient(closest-side, #ffffff, #e5e5e5);
+$bg-gradient: radial-gradient(closest-side, #ffffff 55%, #e5e5e5);
 
 @mixin link-style__pseuodo-class {
   &:hover{

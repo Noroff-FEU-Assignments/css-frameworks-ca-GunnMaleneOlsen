@@ -50,7 +50,7 @@
   }
 }
 
-.show {
+.accordion-collapse.show {
   margin-bottom: 1px;
   border-top: solid 1px map-get($colors, "highlight");
 }

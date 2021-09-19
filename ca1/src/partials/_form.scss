@@ -10,6 +10,20 @@
     width: 35rem;
   }
 
+  .btn{
+    background-color: map-get($colors, "grey");
+
+    &:hover,
+    &:focus{
+      background-color: map-get($colors, "lightgrey");
+      box-shadow: none;
+    }
+  }
+
+  &__header{
+    margin: 2.5rem 0;
+  }
+
   &__input-wrapper {
     background-color: map-get($colors, "dark-white");
     margin: 0 -1.5rem;
@@ -40,11 +54,11 @@
     border-top-left-radius: 5px;
   }
 
-  >input{
-    @media (min-width: $breakpoint-md){
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-    }  
+  > input {
+    @media (min-width: $breakpoint-md) {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
   }
 }
 
@@ -56,16 +70,21 @@ textarea.form-control {
   min-height: 10rem;
 }
 
-.form-check-label {
-  font-size: map-get($font-size, "smal");
-}
-
-.form-check-input {
-  -webkit-appearance: none;
-
-  &:checked[type="checkbox"] {
-    background-color: map-get($colors, "highlight");
-    border-color: map-get($colors, "highlight");
-    background-image: none;
+  .form-check-label {
+    font-size: map-get($font-size, "smal");
+    display: inline;
   }
-}
+
+  .form-check-input {
+    -webkit-appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+
+    &:checked[type="checkbox"] {
+      background-color: map-get($colors, "highlight");
+      border-color: map-get($colors, "highlight");
+      background-image: none;
+    }
+  }
+

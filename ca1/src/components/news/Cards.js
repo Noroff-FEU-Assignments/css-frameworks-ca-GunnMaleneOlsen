@@ -1,25 +1,33 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 
 function Cards() {
-  /*let id = document.getElementById("1");
 
-  var mdWidth = window.matchMedia("(max-width: 768px)");
+  //attempted to add class .card--Show on the cards element based on screen width but did not hve enough time to figgure out
+ /* //var cardId = [];
 
-  function changeColor(mdWidth) {
-    if (mdWidth.matches) {
+  let Cards = document.querySelectorAll(".card");
+
+  let cardArray = Array.from(Cards);
+  console.log(cardArray);
+  for (var index = 0; index < cardArray.length; index++) {
+    if (index > 4){
+      cardArray.classList.add("card--show");
+    }
+    console.log(cardArray[index]);
+  }
+
+  let widthMatch = window.matchMedia("(max-width: 768px)");
+  // mm in the function arg is the matchMedia object, passed back into the function
+  widthMatch.addEventListener("change", function (mm) {
+    if (mm.matches) {
       // If media query matches
       document.body.style.backgroundColor = "yellow";
     } else {
       document.body.style.backgroundColor = "pink";
     }
-  }
+  });*/
 
-  changeColor(mdWidth);
-
-  mdWidth.addEventListener(changeColor);
-  */
   return (
     <div className="news__cards">
       <Card id="1" style={{ width: "18rem" }}>
